@@ -37,7 +37,7 @@ class APIs {
     try {
       final res = await post(
           Uri.parse(
-              'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBBofIqEoLbBJLE-U47bdodb7ORJLX6Ci4'),
+              'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=apiKeys'),
           headers: {
             HttpHeaders.contentTypeHeader: 'application/json',
           },
